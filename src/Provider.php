@@ -85,6 +85,7 @@ class Provider extends AbstractProvider implements ProviderInterface
 
     /**
      * {@inheritdoc}
+     * Fixed: getAccessToken() to getAccessTokenResponse()
      */
     public function user()
     {
